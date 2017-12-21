@@ -1,0 +1,79 @@
+body{
+    overflow: hidden;
+}
+.base_z3{
+    position: absolute;
+    z-index: -3;
+    width: 100%;
+}
+.base_z2{
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+}
+.base_z1{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.base_z4{
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+}
+
+.base_z5{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.backg_main{
+    background: url("../images/sky_texture1972.jpg");
+
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+@font-face {
+    font-family: Lobster-Regular;
+    src: url(../fonts/Lobster-Regular.ttf);
+}
+.info_divs{
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    background-color: rgb(255,255,255);
+    margin-top:25vh;
+    z-index: 1;
+    position: absolute;
+    padding:30px;
+    width: 50%;
+    font-family: Lobster-Regular;
+}
+
+.ripple{
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
+.ripple2{
+    position: absolute;
+    bottom: 0;
+    right: -800px;
+}
+
+.info_divs_2{
+    border-radius: 40px;
+    background-color: rgb(255,255,255);
+    margin-top:20vh;
+    z-index: 1;
+    position: absolute;
+    padding:30px;
+    width: 70%;
+    font-family: Lobster-Regular;
+    margin-left: 14%;
+}
