@@ -113,17 +113,18 @@
 }
 
 @keyframes Div_set_one {
-    from { margin-left: 200%;}
-    to { margin-left: 10%;}
+    from { -webkit-margin-left: 200%;margin-left: 200%;}
+    to { -webkit-margin-left: 10%;margin-left: 10%;}
 }
 
 @-webkit-keyframes Div_set_one {
-    from { margin-left: 200%;}
-    to { margin-left: 10%;}
+    from { -webkit-margin-left: 200%;}
+    to { -webkit-margin-left: 10%;}
 }
 
 .div_two_stst{
     margin-left: -200%;
+    -webkit-margin-left: -200%;
 }
 
 .div_two{
@@ -135,21 +136,22 @@
 }
 
 @keyframes Div_set_two {
-    from { margin-left: -200%;}
-    to { margin-left: 0;}
+    from { -webkit-margin-left: -200%;margin-left: -200%;}
+    to { -webkit-margin-left: 0;margin-left: 0;}
 }
 
 @-webkit-keyframes Div_set_two {
-    from { margin-left: -200%;}
-    to { margin-left: 10%;}
+    from { -webkit-margin-left: -200%;margin-left: -200%;}
+    to { -webkit-margin-left: 10%;margin-left: 10%;}
 }
 
 .div_three_stst{
+    -webkit-margin-left: 200%;
     margin-left: 200%;
 }
 
 .div_three{
-    margin-left: 200%;
+    -webkit-margin-left: 200%;
     animation: Div_set_three 3s forwards;
     -webkit-animation: Div_set_three 3s forwards;
     animation-direction: alternate;
