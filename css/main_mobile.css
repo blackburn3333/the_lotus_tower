@@ -1,7 +1,9 @@
 html{
+    -webkit-overflow: hidden;
     overflow: hidden;
 }
 body{
+    -webkit-overflow: hidden;
     overflow: hidden;
 }
 
