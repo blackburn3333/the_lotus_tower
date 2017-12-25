@@ -1,0 +1,168 @@
+.ripple_move{
+    -webkit-animation: Ripple 20s infinite linear;
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+}
+
+@keyframes Ripple {
+    from {right: 0px;}
+    to {right: -500px;}
+}
+
+@-webkit-keyframes Ripple {
+    from {right: 0px;}
+    to {right: -500px;}
+}
+
+.ripple_move_2{
+    -webkit-animation: Ripple_2 30s infinite linear;
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+}
+
+@keyframes Ripple_2 {
+    from {right: -500px;}
+    to {right: 0px;}
+}
+
+@-webkit-keyframes Ripple_2 {
+    from {right: -500px;}
+    to {right: 0px;}
+}
+
+.boat_move{
+    -webkit-animation: boat_move 60s infinite linear;
+}
+
+@keyframes boat_move {
+    from { margin-left: -50vh}
+    to { margin-left: 300vh}
+}
+@-webkit-keyframes boat_move {
+    from { margin-left: -50vh}
+    to { margin-left: 300vh}
+}
+
+.loon_move_1{
+    -webkit-animation: loon_1Ani 30s infinite linear;
+}
+
+@-webkit-keyframes loon_1Ani {
+    from { margin-left: -20vh}
+    to { margin-left: 100vh}
+}
+
+@keyframes loon_1Ani {
+    from { margin-left: -20vh}
+    to { margin-left: 100vh}
+}
+
+.loon_move_2{
+    -webkit-animation: loon_2Ani 40s infinite linear;
+}
+
+@-webkit-keyframes loon_2Ani {
+    from { margin-left: -20vh}
+    to { margin-left: 100vh}
+}
+
+@keyframes loon_2Ani {
+    from { margin-left: -20vh}
+    to { margin-left: 100vh}
+}
+
+.loon_move_3{
+    -webkit-animation: loon_3Ani 50s infinite linear;
+}
+
+@-webkit-keyframes loon_3Ani {
+    from { margin-left: -20vh}
+    to { margin-left: 100vh}
+}
+
+@keyframes loon_3Ani {
+    from { margin-left: -20vh}
+    to { margin-left: 100vh}
+}
+
+
+
+.cloud1{
+    animation: loon_3Ani 20s infinite linear;
+    -webkit-animation: loon_3Ani 20s infinite linear;
+    animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes loon_3Ani {
+    from { margin-left: -20vh}
+    to { margin-left: 0vh}
+}
+
+@keyframes loon_3Ani {
+    from { margin-left: -20vh}
+    to { margin-left: 0vh}
+}
+
+
+
+.div_one{
+    animation: Div_set_one 2s forwards;
+    -webkit-animation: Div_set_one 2s forwards;
+    animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    animation-delay: 2s;
+}
+
+@keyframes Div_set_one {
+    from { margin-left: 200%;}
+    to { margin-left: 10%;}
+}
+
+@-webkit-keyframes Div_set_one {
+    from { margin-left: 200%;}
+    to { margin-left: 10%;}
+}
+
+.div_two_stst{
+    margin-left: -200%;
+}
+
+.div_two{
+    animation: Div_set_two 3s forwards;
+    -webkit-animation: Div_set_two 3s forwards;
+    animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    animation-delay: 1s;
+}
+
+@keyframes Div_set_two {
+    from { margin-left: -200%;}
+    to { margin-left: 0;}
+}
+
+@-webkit-keyframes Div_set_two {
+    from { margin-left: -200%;}
+    to { margin-left: 10%;}
+}
+
+.div_three_stst{
+    margin-left: 200%;
+}
+
+.div_three{
+    margin-left: 200%;
+    animation: Div_set_three 3s forwards;
+    -webkit-animation: Div_set_three 3s forwards;
+    animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    animation-delay: 3s;
+}
+
+@keyframes Div_set_three {
+    from { margin-left: 200%;}
+    to { margin-left: 10%;}
+}
+
+@-webkit-keyframes Div_set_three {
+    from { margin-left: 200%;}
+    to { margin-left: 10%;}
+}
